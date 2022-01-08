@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="scroll-smooth">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /> <!--responsive meta-->
@@ -19,11 +19,11 @@
     <!--=== STYLESHEET ===-->
     
     <title>Cuisine | Traiteur IDF</title>
-    <link rel="stylesheet" href="/assets/index.6b272312.css">
+    <link rel="stylesheet" href="/assets/index.fa927414.css">
   </head>
-  <body class="text-blueGray-700 antialiased">
+  <body class="text-blueGray-700 font-poppins antialiased ">
     <!--NAVIGATION BAR START-->
-    <nav
+    <nav id="home"
       class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg"
     >
       <div
@@ -33,9 +33,9 @@
         <div
           class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
         >
-          <i class="text-white font-bold text-xl fa-solid fa-utensils mt-1 mr-1"></i>
+          <i class="text-white font-bold text-xl fa-solid fa-utensils mt-1 mr-2"></i>
           <a
-            class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+            class="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
             href="./index.html"
             >Cuisine</a
           ><button
@@ -46,106 +46,22 @@
             <i class="text-white fas fa-bars"></i>
           </button>
         </div>
-        <!--nav--> <!--TODO - MAKE REAL NAVIGATION BAR + DROP DOWN-->
+        <!--navigation-->
         <div
           class="lg:flex flex-grow items-center bg-white lg:bg-opacity-0 lg:shadow-none hidden"
           id="example-collapse-navbar"
         >
           <ul
-            class="flex flex-col lg:flex-row list-none lg:ml-auto items-center"
+            class="flex flex-col lg:flex-row list-none lg:ml-auto items-center sp space-x-5"
           > 
-            <!--dropdown-->
-            <li class="inline-block relative hidden">
-              <a
-                class="lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                href="#pablo"
-                onclick="openDropdown(event,'demo-pages-dropdown')"
-              >
-                Demo Pages
-              </a>
-              <div
-                class="hidden bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg min-w-48"
-                id="demo-pages-dropdown"
-              >
-                <span
-                  class="text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
-                >
-                  Admin Layout
-                </span>
-                <a
-                  href="./admin/dashboard.html"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-                >
-                  Dashboard
-                </a>
-                <a
-                  href="./admin/settings.html"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-                >
-                  Settings
-                </a>
-                <a
-                  href="./admin/tables.html"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-                >
-                  Tables
-                </a>
-                <a
-                  href="./admin/maps.html"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-                >
-                  Maps
-                </a>
-                <div
-                  class="h-0 mx-4 my-2 border border-solid border-blueGray-100"
-                ></div>
-                <span
-                  class="text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
-                >
-                  Auth Layout
-                </span>
-                <a
-                  href="./auth/login.html"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-                >
-                  Login
-                </a>
-                <a
-                  href="./auth/register.html"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-                >
-                  Register
-                </a>
-                <div
-                  class="h-0 mx-4 my-2 border border-solid border-blueGray-100"
-                ></div>
-                <span
-                  class="text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
-                >
-                  No Layout
-                </span>
-                <a
-                  href="./landing.html"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-                >
-                  Landing
-                </a>
-                <a
-                  href="./profile.html"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-                >
-                  Profile
-                </a>
-              </div>
-            </li>
             <!--icon 1-->
             <li class="flex items-center">
               <a
-                class="lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                href=""
-                target="_blank"
+                class="lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-lg uppercase font-bold"
+                href="#about"
+                
                 ><i
-                  class="text-orange-500 fas fa-house-user text-lg leading-lg"
+                  class="text-white fas fa-house-user text-lg leading-lg"
                 ></i
                 ><span class="lg:hidden inline-block ml-2">About</span></a
               >
@@ -153,31 +69,31 @@
             <!--icon 2-->
             <li class="flex items-center">
               <a
-                class="lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                href=""
-                target="_blank"
+                class="lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-lg uppercase font-bold"
+                href="#menu"
+                
                 ><i
-                  class="text-orange-500 fas fa-clipboard text-lg leading-lg"
+                  class="text-white fas fa-clipboard text-lg leading-lg"
                 ></i
-                ><span class="lg:hidden inline-block ml-2">Service</span></a
+                ><span class="lg:hidden inline-block ml-2">Menu</span></a
               >
             </li>
             <!--icon 3-->
             <li class="flex items-center">
               <a
-                class="lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                href=""
-                target="_blank"
+                class="lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-lg uppercase font-bold"
+                href="#service"
+                
                 ><i
-                  class="text-orange-500 fas fa-bread-slice text-lg leading-lg"
+                  class="text-white fas fa-bread-slice text-lg leading-lg"
                 ></i
-                ><span class="lg:hidden inline-block ml-2">Menu</span></a
+                ><span class="lg:hidden inline-block ml-2">Service</span></a
               >
             </li>
             <!--cta-->
             <li class="flex items-center">
               <button
-                class="bg-white text-black active:bg-blueGray-50 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+                class="bg-orange-400 hover:bg-orange-500 text-gray-50 active:bg-blueGray-50 active:text-orange-400 text-base tracking-wider font-bold uppercase px-5 py-3 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
                 type="button"
               >
                  ORDER
@@ -195,33 +111,35 @@
       <div
         class="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75"
       >
+        <!--background image-->
         <div
           class="absolute top-0 w-full h-full bg-center bg-cover"
           style="
             background-image: url('./assets/img/hero.jpg');
           "
         >
+          <!--overlay-->
           <span
             id="blackOverlay"
             class="w-full h-full absolute opacity-75 bg-black"
           ></span>
         </div>
+        <!--headline text-->
         <div class="container relative mx-auto">
           <div class="items-center flex flex-wrap">
             <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
               <div class="pr-12">
                 <h1 class="text-white font-semibold text-5xl">
-                  Your story starts with us.
+                  Lorem Emet Selch
                 </h1>
                 <p class="mt-4 text-lg text-blueGray-200">
-                  This is a simple example of a Landing Page you can build using
-                  Notus JS. It features multiple CSS components based on the
-                  Tailwind CSS design system.
+                  This is a demo of a catering business website. Using Tailwind CSS Design System, Notus JS Starter Kit and Figma Illustrations
                 </p>
               </div>
             </div>
           </div>
         </div>
+        <!--polygon-->
         <div
           class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden h-70-px"
           style="transform: translateZ(0px)"
@@ -236,7 +154,7 @@
             y="0"
           >
             <polygon
-              class="text-blueGray-200 fill-current"
+              class="text-gray-800 fill-current"
               points="2560 0 2560 100 0 100"
             ></polygon>
           </svg>
@@ -244,384 +162,227 @@
       </div>
       <!--HERO SECTION END-->
 
-      <!--TRIPLE CARD SECTION START-->
-      <section class="pb-20 bg-blueGray-200 -mt-24">
+      <!--ABOUT SECTION START-->
+      <section id="about" class="pb-20 -mt-24 bg-gray-800 text-white">
         <div class="container mx-auto px-4">
+          <!--triple card-->
           <div class="flex flex-wrap">
             <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+              <!--card 1-->
               <div
                 class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
               >
                 <div class="px-4 py-5 flex-auto">
                   <div
-                    class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400"
+                    class=" p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400"
                   >
-                    <i class="fas fa-award"></i>
+                    <i class="fas fa-graduation-cap"></i>
                   </div>
-                  <h6 class="text-xl font-semibold">Awarded Agency</h6>
-                  <p class="mt-2 mb-4 text-blueGray-500">
-                    Divide details about your product or agency work into parts.
-                    A paragraph describing a feature will be enough.
+                  <h6 class="text-xl font-semibold text-gray-800">Graduated Chef</h6>
+                  <p class="mt-2 mb-4 text-gray-600">
+                    Our chef are graduated and experienced in french cuisine but also african and asian !
                   </p>
                 </div>
               </div>
             </div>
+            
+            <!--card 2-->
             <div class="w-full md:w-4/12 px-4 text-center">
               <div
                 class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
               >
                 <div class="px-4 py-5 flex-auto">
                   <div
-                    class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400"
+                    class="p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400"
                   >
-                    <i class="fas fa-retweet"></i>
+                    <i class="fas fa-fish"></i>
                   </div>
-                  <h6 class="text-xl font-semibold">Free Revisions</h6>
-                  <p class="mt-2 mb-4 text-blueGray-500">
-                    Keep you user engaged by providing meaningful information.
-                    Remember that by this time, the user is curious.
+                  <h6 class="text-xl font-semibold text-gray-800">Fresh Ingredients</h6>
+                  <p class="mt-2 mb-4 text-gray-600">
+                    We are using fresh ingredients from the market the morning we cook your food ! 
                   </p>
                 </div>
               </div>
             </div>
+            <!--card 3-->
             <div class="pt-6 w-full md:w-4/12 px-4 text-center">
               <div
                 class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
               >
                 <div class="px-4 py-5 flex-auto">
                   <div
-                    class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400"
+                    class=" p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400"
                   >
-                    <i class="fas fa-fingerprint"></i>
+                    <i class="fas fa-carrot"></i>
                   </div>
-                  <h6 class="text-xl font-semibold">Verified Company</h6>
-                  <p class="mt-2 mb-4 text-blueGray-500">
-                    Write a few lines about each one. A paragraph describing a
-                    feature will be enough. Keep you user engaged!
+                  <h6 class="text-xl font-semibold text-gray-800">Veggie Friendly</h6>
+                  <p class="mt-2 mb-4 text-gray-600">
+                    Our menu includes a veggie substitute, just need to specify in the order form !
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="flex flex-wrap items-center mt-32">
-            <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
-              <div
-                class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white"
-              >
-                <i class="fas fa-user-friends text-xl"></i>
-              </div>
-              <h3 class="text-3xl mb-2 font-semibold leading-normal">
-                Working with us is a pleasure
-              </h3>
-              <p
-                class="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600"
-              >
-                Don't let your uses guess by attaching tooltips and popoves to
-                any element. Just make sure you enable them first via
-                JavaScript.
-              </p>
-              <p
-                class="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600"
-              >
-                The kit comes with three pre-built pages to help you get started
-                faster. You can change the text and images and you're good to
-                go. Just make sure you enable them first via JavaScript.
-              </p>
-              <a href="./index.html" class="font-bold text-blueGray-700 mt-8"
-                >Check Notus JS!</a
-              >
-            </div>
-            <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
-              <div
-                class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-pink-500"
-              >
+          <!--left-right-->
+          <div class="container mx-auto px-4 mt-12">
+            <div class="items-center flex flex-wrap">
+              <!--image part-->
+              <div class="w-full md:w-5/12 ml-auto mr-auto px-4 mb-4">
                 <img
                   alt="..."
-                  src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1051&amp;q=80"
-                  class="w-full align-middle rounded-t-lg"
+                  class="max-w-full rounded-lg shadow-lg"
+                  src="/assets/Searching - Looking.87ed92e9.png"
                 />
-                <blockquote class="relative p-8 mb-4">
-                  <svg
-                    preserveAspectRatio="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 583 95"
-                    class="absolute left-0 w-full block h-95-px -top-94-px"
+              </div>
+              <!--text part-->
+              <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+                <div class="md:pr-12">
+                  <!--TODO: add stabilo + change icon-->
+                  <div
+                    class="hidden text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300"
                   >
-                    <polygon
-                      points="-30,95 583,95 583,65"
-                      class="text-pink-500 fill-current"
-                    ></polygon>
-                  </svg>
-                  <h4 class="text-xl font-bold text-white">
-                    Top Notch Services
-                  </h4>
-                  <p class="text-md font-light mt-2 text-white">
-                    The Arctic Ocean freezes every winter and much of the
-                    sea-ice then thaws every summer, and that process will
-                    continue whatever happens.
+                    <i class="fas fa-rocket text-xl"></i>
+                  </div>
+                  <h3 class="text-3xl font-semibold">About us</h3>
+                  <p class="mt-4 text-lg leading-relaxed ">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum,
+                     earum labore adipisci molestiae voluptas fugit iusto numquam nesciunt fuga!
+                     Ipsum voluptatum soluta facilis porro maiores illum magnam dolor possimus magni.
                   </p>
-                </blockquote>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--TRIPLE CARD SECTION END-->
-
-      <!--WORK SECTION START-->
-      <section class="relative py-20">
-        <div
-          class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
-          style="transform: translateZ(0px)"
-        >
-          <svg
-            class="absolute bottom-0 overflow-hidden"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none"
-            version="1.1"
-            viewBox="0 0 2560 100"
-            x="0"
-            y="0"
-          >
-            <polygon
-              class="text-white fill-current"
-              points="2560 0 2560 100 0 100"
-            ></polygon>
-          </svg>
-        </div>
-        <div class="container mx-auto px-4">
-          <div class="items-center flex flex-wrap">
-            <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
-              <img
-                alt="..."
-                class="max-w-full rounded-lg shadow-lg"
-                src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80"
-              />
-            </div>
-            <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
-              <div class="md:pr-12">
-                <div
-                  class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300"
-                >
-                  <i class="fas fa-rocket text-xl"></i>
+                  <ul class="list-none mt-6">
+                    <li class="py-2">
+                      <div class="flex items-center">
+                        <div>
+                          <span
+                            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-black bg-orange-300 mr-3"
+                            ><i class="fas fa-fingerprint"></i
+                          ></span>
+                        </div>
+                        <div>
+                          <h4 class="">
+                            Cuisine of many countries
+                          </h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="py-2">
+                      <div class="flex items-center">
+                        <div>
+                          <span
+                            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-black bg-orange-300 mr-3"
+                            ><i class="fab fa-html5"></i
+                          ></span>
+                        </div>
+                        <div>
+                          <h4 class="">Everything is homemade</h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="py-2">
+                      <div class="flex items-center">
+                        <div>
+                          <span
+                            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-black bg-orange-300 mr-3"
+                            ><i class="far fa-paper-plane"></i
+                          ></span>
+                        </div>
+                        <div>
+                          <h4 class="">Exotic food with local ingredient</h4>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
                 </div>
-                <h3 class="text-3xl font-semibold">A growing company</h3>
-                <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
-                  The extension comes with three pre-built pages to help you get
-                  started faster. You can change the text and images and you're
-                  good to go.
-                </p>
-                <ul class="list-none mt-6">
-                  <li class="py-2">
-                    <div class="flex items-center">
-                      <div>
-                        <span
-                          class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
-                          ><i class="fas fa-fingerprint"></i
-                        ></span>
-                      </div>
-                      <div>
-                        <h4 class="text-blueGray-500">
-                          Carefully crafted components
-                        </h4>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="py-2">
-                    <div class="flex items-center">
-                      <div>
-                        <span
-                          class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
-                          ><i class="fab fa-html5"></i
-                        ></span>
-                      </div>
-                      <div>
-                        <h4 class="text-blueGray-500">Amazing page examples</h4>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="py-2">
-                    <div class="flex items-center">
-                      <div>
-                        <span
-                          class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
-                          ><i class="far fa-paper-plane"></i
-                        ></span>
-                      </div>
-                      <div>
-                        <h4 class="text-blueGray-500">Dynamic components</h4>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <!--WORK SECTION END-->
 
-      <!--ABOUT US SECTION START-->
-      <section class="pt-20 pb-48">
+      </section>
+      <!--ABOUT SECTION END-->
+
+      <!--MENU SECTION START-->
+      <section id="menu" class="pt-20 pb-48">
         <div class="container mx-auto px-4">
-          <div class="flex flex-wrap justify-center text-center mb-24">
-            <div class="w-full lg:w-6/12 px-4">
-              <h2 class="text-4xl font-semibold">Here are our heroes</h2>
+          <div class="flex flex-col items-center text-center mb-24">
+            <div class="top-menu w-full lg:w-6/12 px-4">
+              <h2 class="text-4xl font-semibold">Menu of the Day</h2>
               <p class="text-lg leading-relaxed m-4 text-blueGray-500">
-                According to the National Oceanic and Atmospheric
-                Administration, Ted, Scambos, NSIDClead scentist, puts the
-                potentially record maximum.
+                One day, One Meal ! <br> You can choose between classic menu or veggie.
               </p>
             </div>
-          </div>
-          <div class="flex flex-wrap">
-            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-              <div class="px-6">
-                <img
-                  alt="..."
-                  src="/assets/team-1-800x800.fdfd85ef.jpg"
-                  class="shadow-lg rounded-full mx-auto max-w-120-px"
-                />
-                <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Ryan Tompson</h5>
-                  <p
-                    class="mt-1 text-sm text-blueGray-400 uppercase font-semibold"
-                  >
-                    Web Developer
-                  </p>
-                  <div class="mt-6">
-                    <button
-                      class="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <i class="fab fa-twitter"></i></button
-                    ><button
-                      class="bg-lightBlue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <i class="fab fa-facebook-f"></i></button
-                    ><button
-                      class="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <i class="fab fa-dribbble"></i>
-                    </button>
+            <div class="bot-menu w-full lg:w-9/12 px-4 mt-8 flex md:flex-col">
+              <!--tabs-->
+              <div class="tabs grid grid-rows-5 grid-cols-1 md:grid-rows-1 md:grid-cols-5 gap-2">
+                <button 
+                id="monday" 
+                onclick="openMenu(this.id)"
+                type="button"
+                class="flex justify-center items-center text-white bg-orange-400 hover:bg-orange-500 focus:ring-4 focus:ring-orange-300 font-bold rounded-lg text-xs sm:text-sm md:text-base lg:text-lg  px-5 py-2.5 text-center mr-2 mb-2 dark:focus:ring-orange-900 uppercase">Monday</button>
+                <button 
+                id="tuesday"
+                type="button"
+                onclick="openMenu(this.id)" 
+                class="flex justify-center items-center text-white bg-orange-400 hover:bg-orange-500 focus:ring-4 focus:ring-orange-300 font-bold rounded-lg text-xs sm:text-sm md:text-base lg:text-lg  px-5 py-2.5 text-center mr-2 mb-2 dark:focus:ring-orange-900 uppercase">Tuesday</button>
+                <button 
+                id="wednesday"
+                type="button"
+                onclick="openMenu(this.id)" 
+                class="flex justify-center items-center text-white bg-orange-400 hover:bg-orange-500 focus:ring-4 focus:ring-orange-300 font-bold rounded-lg text-xs sm:text-sm md:text-base lg:text-lg  px-5 py-2.5 text-center mr-2 mb-2 dark:focus:ring-orange-900 uppercase">Wednesday</button>
+                <button 
+                id="thursday"
+                type="button"
+                onclick="openMenu(this.id)" 
+                class="flex justify-center items-center text-white bg-orange-400 hover:bg-orange-500 focus:ring-4 focus:ring-orange-300 font-bold rounded-lg text-xs sm:text-sm md:text-base lg:text-lg  px-5 py-2.5 text-center mr-2 mb-2 dark:focus:ring-orange-900 uppercase">Thursday</button>
+                <button 
+                id="friday"
+                type="button"
+                onclick="openMenu(this.id)" 
+                class="flex justify-center items-center text-white bg-orange-400 hover:bg-orange-500 focus:ring-4 focus:ring-orange-300 font-bold rounded-lg text-xs sm:text-sm md:text-base lg:text-lg  px-5 py-2.5 text-center mr-2 mb-2 dark:focus:ring-orange-900 uppercase">Friday</button>
+              </div>
+              <!--cards-->
+              <div class="cards flex flex-col sm:flex-row  w-full gap-6 ml-6 md:ml-0 md:mt-6 text-gray-800">
+                <!--card 1-->
+                <div class="card1 bg-gray-100 border-8 border-gray-800 rounded-lg w-full h-full">
+                  <!--image-->
+                  <div class="card-image">
+                    <img class="w-full object-contain rounded-lg" src="/assets/404 Not Found.0a4a5769.png" alt="card image">
+                  </div>
+                  <!--title-->
+                  <div  class="card-title px-4 py-2">
+                    <h4 id="title-classic" class="font-bold text-xl text-left">404 Classic Menu (Monday)</h4>
+                  </div>
+                  <!--description-->
+                  <div  class="card-desc px-4 py-2">
+                    <p id="desc-classic" class="font-medium text-left text-lg py-8">This is the classic menu, with classic food and classic ingredients.</p>
+                  </div>
+                </div>
+                <!--card 2-->
+                <div class="card2 bg-gray-100 border-8 border-gray-800 rounded-lg w-full h-full">
+                  <!--image-->
+                  <div class="card-image">
+                    <img class="w-full object-contain rounded-lg" src="/assets/404 Not Found.0a4a5769.png" alt="card image">
+                  </div>
+                  <!--title-->
+                  <div class="card-title font-bold px-4 py-2">
+                    <h4  id="title-veggie" class="font-bold text-xl text-left">404 Veggie Menu (Monday)</h4>
+                  </div>
+                  <!--description-->
+                  <div class="card-desc px-4 py-2">
+                    <p  id="desc-veggie" class="font-medium text-left text-lg py-8">This is the veggie menu with everything like classic but veggie.</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-              <div class="px-6">
-                <img
-                  alt="..."
-                  src="/assets/team-2-800x800.8f2ca31a.jpg"
-                  class="shadow-lg rounded-full mx-auto max-w-120-px"
-                />
-                <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Romina Hadid</h5>
-                  <p
-                    class="mt-1 text-sm text-blueGray-400 uppercase font-semibold"
-                  >
-                    Marketing Specialist
-                  </p>
-                  <div class="mt-6">
-                    <button
-                      class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <i class="fab fa-google"></i></button
-                    ><button
-                      class="bg-lightBlue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <i class="fab fa-facebook-f"></i>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-              <div class="px-6">
-                <img
-                  alt="..."
-                  src="/assets/team-3-800x800.f6678378.jpg"
-                  class="shadow-lg rounded-full mx-auto max-w-120-px"
-                />
-                <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Alexa Smith</h5>
-                  <p
-                    class="mt-1 text-sm text-blueGray-400 uppercase font-semibold"
-                  >
-                    UI/UX Designer
-                  </p>
-                  <div class="mt-6">
-                    <button
-                      class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <i class="fab fa-google"></i></button
-                    ><button
-                      class="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <i class="fab fa-twitter"></i></button
-                    ><button
-                      class="bg-blueGray-700 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <i class="fab fa-instagram"></i>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-              <div class="px-6">
-                <img
-                  alt="..."
-                  src="/assets/team-4-470x470.6e326d59.png"
-                  class="shadow-lg rounded-full mx-auto max-w-120-px"
-                />
-                <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Jenna Kardi</h5>
-                  <p
-                    class="mt-1 text-sm text-blueGray-400 uppercase font-semibold"
-                  >
-                    Founder and CEO
-                  </p>
-                  <div class="mt-6">
-                    <button
-                      class="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <i class="fab fa-dribbble"></i></button
-                    ><button
-                      class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <i class="fab fa-google"></i></button
-                    ><button
-                      class="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <i class="fab fa-twitter"></i></button
-                    ><button
-                      class="bg-blueGray-700 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <i class="fab fa-instagram"></i>
-                    </button>
-                  </div>
-                </div>
-              </div>
+            <div>
             </div>
           </div>
         </div>
       </section>
-      <!--ABOUT US SECTION END-->
+      <!--MENU SECTION END-->
 
       <!--SERVICE SECTION START-->
-      <section class="pb-20 relative block bg-blueGray-800">
+      <section id="service" class="pb-20 relative block bg-gray-800">
         <div
           class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
           style="transform: translateZ(0px)"
@@ -636,61 +397,57 @@
             y="0"
           >
             <polygon
-              class="text-blueGray-800 fill-current"
+              class="text-gray-800 fill-current"
               points="2560 0 2560 100 0 100"
             ></polygon>
           </svg>
         </div>
         <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
           <div class="flex flex-wrap text-center justify-center">
-            <div class="w-full lg:w-6/12 px-4">
-              <h2 class="text-4xl font-semibold text-white">Build something</h2>
-              <p class="text-lg leading-relaxed mt-4 mb-4 text-blueGray-400">
-                Put the potentially record low maximum sea ice extent tihs year
-                down to low ice. According to the National Oceanic and
-                Atmospheric Administration, Ted, Scambos.
-              </p>
+            <div class="w-full lg:w-6/12 px-4 mb-4">
+              <h2 class="text-4xl font-semibold text-white">How it works ?</h2>
             </div>
           </div>
+          <!--STEPS-->
           <div class="flex flex-wrap mt-12 justify-center">
+            <!--step 1-->
             <div class="w-full lg:w-3/12 px-4 text-center">
               <div
                 class="text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
               >
-                <i class="fas fa-medal text-xl"></i>
+              <i class="fas fa-file-invoice text-xl"></i>
               </div>
               <h6 class="text-xl mt-5 font-semibold text-white">
-                Excelent Services
+                Order
               </h6>
-              <p class="mt-2 mb-4 text-blueGray-400">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              <p class="mt-4 mb-4 text-white">
+                Choose what daily menu you want to eat and order with the form below.
               </p>
             </div>
+            <!--step 2-->
             <div class="w-full lg:w-3/12 px-4 text-center">
               <div
                 class="text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
               >
-                <i class="fas fa-poll text-xl"></i>
+                <i class="fas fa-fire text-xl"></i>
               </div>
               <h5 class="text-xl mt-5 font-semibold text-white">
-                Grow your market
+                Preparation
               </h5>
-              <p class="mt-2 mb-4 text-blueGray-400">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              <p class="mt-4 mb-4 text-white">
+                The morning of the daily menu we go the market buy fresh ingredients and prepare your meal.
               </p>
             </div>
+            <!--step 3-->
             <div class="w-full lg:w-3/12 px-4 text-center">
               <div
                 class="text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
               >
-                <i class="fas fa-lightbulb text-xl"></i>
+                <i class="fas fa-truck text-xl"></i>
               </div>
-              <h5 class="text-xl mt-5 font-semibold text-white">Launch time</h5>
-              <p class="mt-2 mb-4 text-blueGray-400">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              <h5 class="text-xl mt-5 font-semibold text-white">Delivery</h5>
+              <p class="mt-4 mb-4 text-white">
+                Once everything is cooked, we will deliver the food in your place.
               </p>
             </div>
           </div>
@@ -699,60 +456,59 @@
       <!--SERVICE SECTION END-->
 
       <!--FORM SECTION START-->
-      <section class="relative block py-24 lg:pt-0 bg-blueGray-800">
-        <div class="container mx-auto px-4">
+      <section class="relative block py-24 lg:pt-0 bg-gray-800">
+        <div class="container mx-auto px-4 py-8">
           <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
             <div class="w-full lg:w-6/12 px-4">
               <div
-                class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200"
+                class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-white"
               >
-                <div class="flex-auto p-5 lg:p-10">
-                  <h4 class="text-2xl font-semibold">Want to work with us?</h4>
-                  <p class="leading-relaxed mt-1 mb-4 text-blueGray-500">
-                    Complete this form and we will get back to you in 24 hours.
+                <div class="flex-auto p-5 lg:p-10 text-gray-800">
+                  <h4 class="text-2xl font-semibold">Want to order your food ?</h4>
+                  <p class="leading-relaxed mt-1 mb-4 text-gra">
+                    Complete this form so we take your order and deliver your meal
                   </p>
-                  <div class="relative w-full mb-3 mt-8">
-                    <label
-                      class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-                      for="full-name"
-                      >Full Name</label
-                    ><input
-                      type="text"
-                      class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                      placeholder="Full Name"
-                    />
-                  </div>
-                  <div class="relative w-full mb-3">
-                    <label
-                      class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-                      for="email"
-                      >Email</label
-                    ><input
-                      type="email"
-                      class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                      placeholder="Email"
-                    />
-                  </div>
-                  <div class="relative w-full mb-3">
-                    <label
-                      class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-                      for="message"
-                      >Message</label
-                    ><textarea
-                      rows="4"
-                      cols="80"
-                      class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                      placeholder="Type a message..."
-                    ></textarea>
-                  </div>
-                  <div class="text-center mt-6">
-                    <button
-                      class="bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                      type="button"
+                  <!--form-->
+                  <form class="flex flex-col gap-4" action="https://formsubmit.co/ibrahim.elmhadri@gmail.com" method="POST">
+                    <input type="hidden" name="_subject" value="New Order">
+                    <input type="hidden" name="_autoresponse" value="Thank you !">
+                    <input type="hidden" name="_template" value="box">
+                  
+                    <label for="name">Name: </label>
+                    <input class="border-0 px-3 py-3 placeholder-gray-300 text-gray-800 bg-gray-50 rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150" 
+                           type="text" id="name" name="name" placeholder="Name" required>
+
+                    <label for="email">Email: </label>
+                    <input class="border-0 px-3 py-3 placeholder-gray-300 text-gray-800 bg-gray-50 rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                           type="email" id="email" name="email" placeholder="Email" required>
+                    
+                    <label for="choice">Menu: </label>
+                    <input 
+                                  class="border-0 px-3 py-3 placeholder-gray-300 text-gray-800 bg-gray-50 rounded text-sm shadow focus:outline-none focus:ring w-full"       
+                                  type="select" id="choice" name="menu" list="menuList"
+                                  placeholder ="Specify the day of the menu you want (ex: Monday)"
                     >
-                      Send Message
-                    </button>
-                  </div>
+                    <datalist id="menuList">
+                      <option value="Monday">Monday</option>
+                      <option value="Tuesday">Tuesday</option>
+                      <option value="Wednesday">Wednesday</option>
+                      <option value="Thursday">Thursday</option>
+                      <option value="Friday">Friday</option>
+                    </datalist>       
+
+                    <label for="message">Message:</label>
+                    <input 
+                           class="border-0 px-3 py-3 placeholder-gray-300 text-gray-800 bg-gray-50 rounded text-sm shadow focus:outline-none focus:ring w-full"
+                           type="text" id="message" name="message" placeholder="Type a message..."
+                    >
+                    
+
+                    <div class="form-btn flex justify-center mt-4">
+                      <button class="bg-orange-400 hover:bg-orange-600 text-white active:bg-gray-800 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" 
+                              type="submit">Send Message
+                      </button>
+                    </div>
+                  </form> 
                 </div>
               </div>
             </div>
@@ -763,26 +519,7 @@
     </main>
     <!--MAIN CONTENT END-->
     <!--FOOTER START-->
-    <footer class="relative bg-blueGray-200 pt-8 pb-6">
-      <div
-        class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
-        style="transform: translateZ(0px)"
-      >
-        <svg
-          class="absolute bottom-0 overflow-hidden"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="none"
-          version="1.1"
-          viewBox="0 0 2560 100"
-          x="0"
-          y="0"
-        >
-          <polygon
-            class="text-blueGray-200 fill-current"
-            points="2560 0 2560 100 0 100"
-          ></polygon>
-        </svg>
-      </div>
+    <footer class="relative bg-white text-gray-800 pt-8 pb-6">
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap text-center lg:text-left">
           <div class="w-full lg:w-6/12 px-4">
@@ -792,22 +529,22 @@
             </h5>
             <div class="mt-6 lg:mb-0 mb-6">
               <button
-                class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                class="bg-white text-gray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button"
               >
                 <i class="fab fa-twitter"></i></button
               ><button
-                class="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                class="bg-white text-gray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button"
               >
                 <i class="fab fa-facebook-square"></i></button
               ><button
-                class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                class="bg-white text-gray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button"
               >
                 <i class="fab fa-dribbble"></i></button
               ><button
-                class="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                class="bg-white text-gray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button"
               >
                 <i class="fab fa-github"></i>
@@ -818,76 +555,42 @@
             <div class="flex flex-wrap items-top mb-6">
               <div class="w-full lg:w-4/12 px-4 ml-auto">
                 <span
-                  class="block uppercase text-blueGray-500 text-sm font-semibold mb-2"
-                  >Useful Links</span
+                  class="block uppercase text-gray-800 text-sm font-semibold mb-2"
+                  >Useful Navigation Links</span
                 >
                 <ul class="list-unstyled">
                   <li>
                     <a
                       class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://www.creative-tim.com/presentation?ref=njs-landing"
-                      >About Us</a
+                      href="#home"
+                      >Home</a
                     >
                   </li>
                   <li>
                     <a
                       class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://blog.creative-tim.com?ref=njs-landing"
-                      >Blog</a
+                      href="#about"
+                      >About us</a
                     >
                   </li>
                   <li>
                     <a
                       class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://www.github.com/creativetimofficial?ref=njs-landing"
-                      >Github</a
+                      href="#service"
+                      >Service</a
                     >
                   </li>
                   <li>
                     <a
-                      class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-landing"
-                      >Free Products</a
+                      class="text-gray-500 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                      href="#menu"
+                      >Menu</a
                     >
                   </li>
+                  
                 </ul>
               </div>
-              <div class="w-full lg:w-4/12 px-4">
-                <span
-                  class="block uppercase text-blueGray-500 text-sm font-semibold mb-2"
-                  >Other Resources</span
-                >
-                <ul class="list-unstyled">
-                  <li>
-                    <a
-                      class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://github.com/creativetimofficial/notus-js/blob/main/LICENSE.md?ref=njs-landing"
-                      >MIT License</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://creative-tim.com/terms?ref=njs-landing"
-                      >Terms &amp; Conditions</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://creative-tim.com/privacy?ref=njs-landing"
-                      >Privacy Policy</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://creative-tim.com/contact-us?ref=njs-landing"
-                      >Contact Us</a
-                    >
-                  </li>
-                </ul>
-              </div>
+            
             </div>
           </div>
         </div>
@@ -902,7 +605,10 @@
                 href="https://www.creative-tim.com?ref=njs-landing"
                 class="text-blueGray-500 hover:text-blueGray-800"
                 >Creative Tim</a
-              >.
+              > and built by
+              <a 
+                href="https://github.com/Gedroke"
+                class="text-blueGray-500 hover:text-blueGray-800">Gedroke</a>
             </div>
           </div>
         </div>
@@ -912,6 +618,57 @@
   </body>
   <!--JS SCRIPT-->
   <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+  <script type="text/javascript">
+    function openMenu(day) {
+      /*checking reference*/
+      const monday = "monday";
+      const tuesday = "tuesday";
+      const wednesday = "wednesday";
+      const thursday = "thursday";
+      const friday = "friday";
+
+      /*card content reference*/
+      let titleClassic = document.getElementById("title-classic");
+      let descClassic = document.getElementById("desc-classic");
+      let titleVeggie = document.getElementById("title-veggie");
+      let descVeggie = document.getElementById("desc-veggie");
+
+      if(day === monday) {
+        titleClassic.innerHTML="404 Classic Menu (Monday)";
+        titleVeggie.innerHTML = "404 Veggie Menu (Monday)";
+        descClassic.innerHTML = "This is monday's classic menu, with classic food and classic ingredients.";
+        descVeggie.innerHTML = "This is monday's veggie menu with everything like classic but veggie.";
+        console.log("click");
+      } else if (day === tuesday) {
+        titleClassic.innerHTML="404 Classic Menu (Tuesday)";
+        titleVeggie.innerHTML = "404 Veggie Menu (Tuesday)";
+        descClassic.innerHTML = "This is Tuesday's classic menu, with classic food and classic ingredients.";
+        descVeggie.innerHTML = "This is Tuesday's veggie menu with everything like classic but veggie.";
+        console.log("click");
+
+      } else if (day === wednesday) {
+        titleClassic.innerHTML="404 Classic Menu (Wednesday)";
+        titleVeggie.innerHTML = "404 Veggie Menu (Wednesday)";
+        descClassic.innerHTML = "This is wednesday's classic menu, with classic food and classic ingredients.";
+        descVeggie.innerHTML = "This is wednesday's veggie menu with everything like classic but veggie.";
+        console.log("click");
+
+      } else if (day === thursday) {
+        titleClassic.innerHTML="404 Classic Menu (Thursday)";
+        titleVeggie.innerHTML = "404 Veggie Menu (Thursday)";
+        descClassic.innerHTML = "This is thursday's classic menu, with classic food and classic ingredients.";
+        descVeggie.innerHTML = "This is thursday's veggie menu with everything like classic but veggie.";
+        console.log("click");
+
+      } else if (day === friday) {
+        titleClassic.innerHTML="404 Classic Menu (Friday)";
+        titleVeggie.innerHTML = "404 Veggie Menu (Friday)";
+        descClassic.innerHTML = "This is friday's classic menu, with classic food and classic ingredients.";
+        descVeggie.innerHTML = "This is friday's veggie menu with everything like classic but veggie.";
+        console.log("click");
+      } 
+    }
+  </script>
   <script>
     /* Make dynamic date appear */
     (function () {
@@ -939,4 +696,5 @@
       document.getElementById(dropdownID).classList.toggle("block");
     }
   </script>
+ 
 </html>
